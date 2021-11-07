@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script> -->
+    <script src="slick.min.js"></script>
+    <script src="main.js"></script>
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-list {
+            overflow: hidden;
+        }
+
+        .slider__item {
+            background-color: lightgray;
+            display: flex;
+            height: 100px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+
+        .slider {
+            max-width: 980px;
+            margin: 20px auto;
+            position: relative;
+            padding: 0px 50px;
+        }
+
+        .slider .slick-arrow {
+            position: absolute;
+            top: 50%;
+            margin: -30px 0px 0px 0px;
+            z-index: 10;
+            font-size: 0;
+            height: 35px;
+            width: 35px;
+            border: 0px;
+        }
+
+        .slider .slick-arrow:hover {
+            cursor: pointer;
+        }
+
+        .slider .slick-arrow.slick-prev {
+            left: 0;
+            background: url(href = "https://yandex.ru/images/search?cbir_id=1542558%2FLhOV20TNPAJzCWsxXRnbcw4250&pos=35&rpt=imageview&img_url=https%3A%2F%2Fimg.flaticon.com%2Ficons%2Fpng%2F512%2F17%2F17491.png%3Fsize%3D1200x630f%26pad%3D10%2C10%2C10%2C10%26ext%3Dpng%26bg%3DFFFFFFFF&cbir_page=similar&lr=35&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F1542558%2FLhOV20TNPAJzCWsxXRnbcw4250%2Forig") 0 0 / 100% no-repeat;
+        }
+
+        .slider .slick-arrow.slick-next {
+            right: 0;
+            background: url(href = "https://yandex.ru/images/search?cbir_id=1542558%2FLhOV20TNPAJzCWsxXRnbcw4250&pos=34&rpt=imageview&img_url=https%3A%2F%2Fe7.pngegg.com%2Fpngimages%2F752%2F693%2Fpng-clipart-loudspeaker-computer-icons-powered-speakers-interface-others-miscellaneous-logo.png&cbir_page=similar&lr=35&url=https%3A%2F%2Favatars.mds.yandex.net%2Fget-images-cbir%2F1542558%2FLhOV20TNPAJzCWsxXRnbcw4250%2Forig ");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .slider .slick-dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .slider .slick-dots li {
+            list-style: none;
+            margin: 0px 10px;
+        }
+
+        .slider .slick-dots button {
+            font-size: 0;
+            width: 10px;
+            height: 10px;
+            padding: 0;
+            background-color: black;
+            border-radius: 50%;
+            border: 0;
+        }
+
+        .slider .slick-dots li.slick-active button{
+            background-color: transparent;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="slider__item">1</div>
+        <div class="slider__item">2</div>
+        <div class="slider__item">3</div>
+        <div class="slider__item">4</div>
+        <div class="slider__item">5</div>
+        <div class="slider__item">6</div>
+        <div class="slider__item">7</div>
+        <div class="slider__item">8</div>
+        <div class="slider__item">9</div>
+        <div class="slider__item">10</div>
+        <div class="slider__item">11</div>
+        <div class="slider__item">12</div>
+        <div class="slider__item">13</div>
+        <div class="slider__item">14</div>
+        <div class="slider__item">15</div>
+        <div class="slider__item">16</div>
+    </div>
+</body>
+</html>
